@@ -1,11 +1,7 @@
+import type { IDesktopMenuProps } from "../../interfaces/IGeneral"
 import css from "./DesktopMenu.module.css"
 
-interface IDesktopMenuProps {
-    pref: {
-        theme: number,
-        font: number
-    }
-}
+
 
 export const DesktopMenu = (props: IDesktopMenuProps) => {
     return (

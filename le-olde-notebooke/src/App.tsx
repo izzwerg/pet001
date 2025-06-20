@@ -11,11 +11,13 @@ const DEF_PREF = {
 function App() {
   const [pref, setPref] = useState(JSON.parse(JSON.stringify(DEF_PREF)))
 
+  const onSetPref = () => { }
+
   return (
     <>
       <div className={css.main}>
         <DesktopMenu pref={pref} />
-        <Page />
+        <Page pref={pref} />
       </div>
     </>
   )
