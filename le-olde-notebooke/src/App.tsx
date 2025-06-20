@@ -1,5 +1,6 @@
 import css from "./App.module.css"
 import { DesktopMenu } from "./components/DesktopMenu/DesktopMenu"
+import { Page } from "./components/Page/Page"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <div className={css.main}>
         <DesktopMenu />
+        <Page />
       </div>
     </>
   )
