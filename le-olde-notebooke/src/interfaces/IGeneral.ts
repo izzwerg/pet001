@@ -24,3 +24,11 @@ export interface IHeaderProps {
     }
     onSetPref: (arg1: string, arg2:boolean|number) => void
 }
+
+export interface IContentProps {
+    pref: {
+        theme: number,
+        font: number,
+        menu: boolean
+    }
+}

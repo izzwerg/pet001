@@ -9,7 +9,7 @@ export const Header = (props: IHeaderProps) => {
                     onClick={() => props.onSetPref('menu', true)}
                 >Show menu</button>}
             </div>
-            <div></div>
+            <div>pagination</div>
             <div>
                 <button>Login</button>
             </div>
