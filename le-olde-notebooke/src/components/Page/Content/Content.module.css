@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 50px 0;
+    padding: 20px 0;
     overflow-y: auto;
 }
 
@@ -12,7 +12,7 @@
     aspect-ratio: 506 / 740;
     background-size: contain;
     background-repeat: no-repeat;
-    
+    padding: 10%;
 }
 
 .theme0 {
