@@ -1,6 +1,7 @@
 .header {
     display: flex;
-    height: 80px;
+    height: 60px;
+    min-height: 60px;
     width: 100%;
     background-color: aliceblue;
     justify-content: space-between;

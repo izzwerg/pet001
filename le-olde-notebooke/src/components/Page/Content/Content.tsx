@@ -6,10 +6,10 @@ export const Content = (props: IContentProps) => {
     return (
         <div className={css.content}>
             <div className={clsx(
-                'content-page',
-                props.pref.theme === 0 && 'theme0',
-                props.pref.theme === 1 && 'theme1',
-                props.pref.theme === 2 && 'theme2'
+                css.contentPage,
+                props.pref.theme === 0 && css.theme0,
+                props.pref.theme === 1 && css.theme1,
+                props.pref.theme === 2 && css.theme2
             )}></div>
         </div >
     )

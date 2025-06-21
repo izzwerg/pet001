@@ -1,3 +1,28 @@
 .content {
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 0;
+    overflow-y: auto;
+}
+
+.contentPage {
+    width: 90%;
+    min-width: 90%;
+    aspect-ratio: 506 / 740;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.theme0 {
+    background-image: url('/themes/page00.png');
+}
+
+.theme1 {
+    background-image: url('/themes/page01.png');
+}
+
+.theme2 {
+    background-image: url('/themes/page02.png');
 }
