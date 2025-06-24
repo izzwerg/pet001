@@ -17,9 +17,11 @@
     overflow: hidden;
     display: flex;
     align-items: flex-start;
-    word-break: break-all;
+    /* word-break: break-all; */
     position: relative;
     font-weight: 900;
+    color: rgba(30, 20, 10, 0.85);
+    flex-direction: column;
 }
 
 

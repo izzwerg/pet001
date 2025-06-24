@@ -1,34 +1,23 @@
+export interface IPref {
+    theme: number,
+    font: number,
+    menu: boolean
+}
 export interface IDesktopMenuProps {
-    pref: {
-        theme: number,
-        font: number,
-        menu: boolean
-    }
-    onSetPref: (arg1: string, arg2:boolean|number) => void
+    pref: IPref
+    onSetPref: (arg1: string, arg2: boolean | number) => void
 }
 
 export interface IPageProps {
-    pref: {
-        theme: number,
-        font: number,
-        menu: boolean
-    }
-    onSetPref: (arg1: string, arg2:boolean|number) => void
+    pref: IPref
+    onSetPref: (arg1: string, arg2: boolean | number) => void
 }
 
 export interface IHeaderProps {
-    pref: {
-        theme: number,
-        font: number,
-        menu: boolean
-    }
-    onSetPref: (arg1: string, arg2:boolean|number) => void
+    pref: IPref
+    onSetPref: (arg1: string, arg2: boolean | number) => void
 }
 
 export interface IContentProps {
-    pref: {
-        theme: number,
-        font: number,
-        menu: boolean
-    }
+    pref: IPref
 }
