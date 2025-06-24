@@ -8,16 +8,15 @@ export const Content = (props: IContentProps) => {
     let text = document.getElementById('content');
 
     // const handleInput = () => {
-    //     const buk = document.getElementById('buk')
 
-    //     if (text?.innerText.length && text?.innerText.length === 1) {
-    //         const next = text?.innerText
-    //         buk!.innerText = next
+    //     if (text?.innerText.length && text?.innerText.length === 1 && !text?.innerHTML.includes('<img')) {
+    //         // const next = text?.innerText
+    //         text.innerHTML = `<img src="/letters/A.jpg" alt="" />`
     //     }
-    //     else if (text?.innerHTML.length && text?.innerHTML.length > 1) {
+    //     else if (text?.innerHTML.length && text?.innerHTML.includes('<img')) {
     //         // const next = text?.innerText.charAt(0)
     //         // const rest = text?.innerText.slice(1)
-    //         // text.innerHTML = `<span className=${css.buk}>${next}</span>${rest}`
+    //         // text.innerHTML = `<img src="/letters/A.jpg" alt="" />${rest}`
     //     }
     //     console.log(text?.innerText)
     // }
@@ -50,6 +49,7 @@ export const Content = (props: IContentProps) => {
                 id='content'
             >
             </div>
+
         </div >
     )
 }

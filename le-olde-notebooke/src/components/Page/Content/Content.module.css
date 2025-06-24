@@ -4,6 +4,7 @@
     align-items: flex-start;
     padding: 20px 0;
     overflow-y: auto;
+    position: relative;
 }
 
 .contentPage {
@@ -17,7 +18,10 @@
     display: flex;
     align-items: flex-start;
     word-break: break-all;
+    position: relative;
+    font-weight: 900;
 }
+
 
 .theme0 {
     background-image: url('/themes/page00.png');
@@ -30,8 +34,3 @@
 .theme2 {
     background-image: url('/themes/page02.png');
 }
-
-/* 
-.buk {
-    font-size: 160px !important;
-  } */
