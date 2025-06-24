@@ -5,13 +5,13 @@ export const Header = (props: IHeaderProps) => {
     return (
         <div className={css.header}>
             <div>
-                {!props.pref.menu && <button
+                <button
                     onClick={() => props.onSetPref('menu', true)}
-                >Show menu</button>}
+                >Show menu</button>
             </div>
             <div>pagination</div>
             <div>
-                <button>Login</button>
+                {/* <button>Login</button> */}
             </div>
         </div>
     )

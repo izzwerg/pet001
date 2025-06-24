@@ -6,7 +6,7 @@ import { Page } from "./components/Page/Page"
 const DEF_PREF = {
   theme: 0,
   font: 0,
-  menu: true
+  menu: false
 }
 
 function App() {
